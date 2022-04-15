@@ -1,0 +1,163 @@
+body {
+	width: 70%;
+	min-width: 800px;
+	margin: 0px auto;
+	font-family: "Trebuchet MS";
+	text-align: justify;
+	background-color: lightgrey;
+}
+
+#titre {
+	font-size: 50px;
+	color: #C0504D;
+	margin: 0px auto;
+	text-align: center;
+}
+
+#banderole {
+	margin-top: 0px;
+	width: 100%;
+}
+
+#fondmenu {
+	width: 100%;
+	height: 50px;
+	background: linear-gradient(#C0504D, #C0504D);
+	border-radius: 0px 0px 4px 4px;
+	box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.2),
+		0px 1px 0px 1px rgba(255, 255, 255, 0.5) inset,
+		0px -3px 0px 1px rgba(0, 0, 0, 0.1) inset;
+}
+
+#menu {
+	font-family: "Times";
+	margin-right: auto;
+	margin-left: auto;
+	display: table;
+	padding: 0;
+	margin-top: -5px;
+	font-size: 15pt;
+}
+
+#menu li {
+	display: table-cell;
+	width: 180px;
+	transition: 1s;
+}
+
+#menu li:hover {
+	width: 190px;
+	transition: 1s;
+}
+
+#menu a {
+	color: white;
+	text-decoration: none;
+	display: block;
+	line-height: 46px;
+	text-align: center;
+	text-shadow: 0 1px 0 rgba(0, 0, 0, 0.4);
+	transition: text-shadow, color 1s;
+	position: relative;
+}
+
+#menu a:hover {
+	color: black;
+	text-shadow: 0 1px 0 rgba(255, 255, 255, 0.2);
+	background: rgba(255, 255, 255, 0.1);
+	transition: text-shadow, color 1s;
+	border-bottom: 4px solid rgba(255, 255, 255, 0.8);
+}
+
+#menu a::before {
+	content: "";
+	position: absolute;
+	border-left: 3px solid transparent;
+	border-right: 3px solid transparent;
+	border-top: 5px solid rgba(0, 0, 0, 0.2);
+	left: 50%;
+	bottom: 5px;
+}
+
+main {
+	margin-top: 5px;
+	margin-bottom: 5px;
+	background-color: #dbebff;
+	padding: 10px 30px 10px 30px;
+	line-height: 0.8cm;
+}
+
+footer {
+	background-color: black;
+	color: white;
+	padding: 10px 30px 10px 30px;
+}
+
+.important {
+	font-style: italic;
+	font-weight: bold;
+}
+
+.Titre_Partie {
+	color: #C0504D;
+}
+
+.Titre_Sous_Partie {
+	color: #4F6128;
+}
+
+.souligne {
+	text-decoration: underline;
+}
+
+.centrer {
+	text-align: center;
+}
+
+.italique {
+	font-style: italic;
+}
+
+#Calendrier {
+	margin-left: auto;
+	margin-right: auto;
+	border-style: double;
+	text-align: center;
+	vertical-align: auto;
+	border-radius: 10px;
+
+}
+
+.Tableau_Entrer {
+	background-color: #C0504D;
+	border-style: double;
+	color: white;
+
+	height: 50px;
+}
+
+.Tableau_Cocher {
+	background-color: #C0504D;
+}
+
+.Titre_Document {
+	font-style: italic;
+	text-align: center;
+}
+
+.Document {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: double;
+	border-radius: 10px;
+}
+
+.Grand_Document {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-style: double;
+	border-radius: 10px;
+	max-width: 100%;
+}
