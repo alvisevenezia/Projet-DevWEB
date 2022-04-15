@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Les Pros de l'Auto</title>
+    <link rel="icon" href="images/icon.png" />
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="../css/style.css">
+</head>
+
+<body>
+    <header>
+        <p id="titre">Les Pros de l'Auto</p>
+        <img id="banderole" src="images/logo.png" />
+        <div id="fondmenu">
+            <ul id="menu">
+                <li><a href="index.html">Accueil</a></li>
+                <li><a href="moteur.html">Moteur</a></li>
+                <li><a href="interieur.html">Intérieur</a></li>
+                <li><a href="tuning.html">Tuning</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+    <main>
+        <h1>Page principale</h1>
+        <form action="Creer_Compte.php" method="POST">
+            <h1>Contact</h1>
+            <label>Date du contact</label>
+            <input type="date" required><br>
+
+            <label>Nom</label>
+            <input type="text" placeholder="Entrez votre Nom"
+            name="Nom" required><br>
+
+            <label>Prénom</label>
+            <input type="text" placeholder="Entrez votre Prénom"
+            name="Prénom" required><br>
+
+            <label>E-mail</label>
+            <input type="email" placeholder="Entrez votre e-mail"
+            name="Email" required><br>
+
+            <label>Genre</label>
+            <input type="radio" id="sexe" name="sexe">Homme:
+            <input type="radio" id="sexe" name="sexe">Femme:<br>
+
+            <label>Date de Naissance</label>
+            <input type="date" required><br>
+
+            <label for="adress">Fonction</label>
+            <input list="fonction">
+					<datalist type="text" id="fonction" name="fonction">
+						<option>Enseignant</option>
+						<option>Chômeur</option>
+                        <option>Fonctionnaire</option>
+						<option>Étudiant</option>
+						<option>Cadre</option>
+						<option>Employé</option>
+					</datalist>
+            <br>
+
+            <label>Sujet</label>
+            <input type="text" placeholder="Entrez le sujet du message" required><br>
+
+            <label>Contenu</label>
+            <input type="text" placeholder="Entrez le contenu du message" required><br>
+
+            <input type="submit" value="Envoyez"><br>
+            </form>
+    </main>
+    <footer>
+        <p>Bas de page</p>
+    </footer>
+</body>
+
+</html>
