@@ -87,77 +87,13 @@ main {
 	line-height: 0.8cm;
 }
 
+table {
+	width: 100%;
+	text-align: center;
+}
+
 footer {
 	background-color: black;
 	color: white;
 	padding: 10px 30px 10px 30px;
-}
-
-.important {
-	font-style: italic;
-	font-weight: bold;
-}
-
-.Titre_Partie {
-	color: #C0504D;
-}
-
-.Titre_Sous_Partie {
-	color: #4F6128;
-}
-
-.souligne {
-	text-decoration: underline;
-}
-
-.centrer {
-	text-align: center;
-}
-
-.italique {
-	font-style: italic;
-}
-
-#Calendrier {
-	margin-left: auto;
-	margin-right: auto;
-	border-style: double;
-	text-align: center;
-	vertical-align: auto;
-	border-radius: 10px;
-
-}
-
-.Tableau_Entrer {
-	background-color: #C0504D;
-	border-style: double;
-	color: white;
-
-	height: 50px;
-}
-
-.Tableau_Cocher {
-	background-color: #C0504D;
-}
-
-.Titre_Document {
-	font-style: italic;
-	text-align: center;
-}
-
-.Document {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-style: double;
-	border-radius: 10px;
-}
-
-.Grand_Document {
-	display: block;
-	margin-left: auto;
-	margin-right: auto;
-	border-style: double;
-	border-radius: 10px;
-	max-width: 100%;
 }
