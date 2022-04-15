@@ -24,6 +24,49 @@
     </header>
     <main>
         <h1>Page principale</h1>
+        <form action="Creer_Compte.php" method="POST">
+            <h1>Contact</h1>
+            <label>Date du contact</label>
+            <input type="date" required><br>
+
+            <label>Nom</label>
+            <input type="text" placeholder="Entrez votre Nom"
+            name="Nom" required><br>
+
+            <label>Prénom</label>
+            <input type="text" placeholder="Entrez votre Prénom"
+            name="Prénom" required><br>
+
+            <label>E-mail</label>
+            <input type="email" placeholder="Entrez votre e-mail"
+            name="Email" required><br>
+
+            <label>Genre</label>
+            <input type="radio" id="sexe" name="sexe">Homme:
+            <input type="radio" id="sexe" name="sexe">Femme:<br>
+
+            <label>Date de Naissance</label>
+            <input type="date" required><br>
+
+            <label for="adress">Fonction</label>
+            <input list="diplome">
+					<datalist type="text" id="diplome" name="diplome">
+						<option>Brevet</option>
+						<option>Bac</option>
+						<option>License</option>
+						<option>Master</option>
+						<option>Doctorat</option>
+					</datalist>
+            <br>
+
+            <label>Sujet</label>
+            <input type="text" placeholder="Entrez le sujet du message" required><br>
+
+            <label>Contenu</label>
+            <input type="text" placeholder="Entrez le contenu du message" required><br>
+
+            <input type="submit" value="Envoyez"><br>
+            </form>
     </main>
     <footer>
         <p>Bas de page</p>
